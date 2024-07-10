@@ -1,4 +1,4 @@
-FROM python:3.13.0b3-slim-bullseye
+FROM python:3.13.0b2-slim
 
 RUN useradd --create-home devops
 USER devops
