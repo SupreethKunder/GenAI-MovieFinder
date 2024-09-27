@@ -13,14 +13,14 @@ pymongo = {extras = ["srv"], version = "^4.9"}
 pydantic-settings = "^2.5.2"
 pydantic = {extras = ["all"], version = "^2.9.2"}
 fastapi = {extras = ["all"], version = "^0.115.0"}
-redis = "^5.0.8"
+redis = "^5.1.0"
 pytest = {extras = ["all"], version = "^8.1.1"}
 pre-commit = "^3.8.0"
 uvicorn = "^0.30.6"
 gunicorn = "^23.0.0"
-ruff = "^0.6.5"
-bandit = "^1.7.9"
-tox = "^4.19.0"
+ruff = "^0.6.8"
+bandit = "^1.7.10"
+tox = "^4.20.0"
 coloredlogs = "^15.0.1"
 wemake-python-styleguide = "^0.19.2"
 black = "^24.8.0"
