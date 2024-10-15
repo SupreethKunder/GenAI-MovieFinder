@@ -9,26 +9,26 @@ packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.12"
-pymongo = {extras = ["srv"], version = "^4.9"}
+pymongo = {extras = ["srv"], version = "^4.10"}
 pydantic-settings = "^2.5.2"
 pydantic = {extras = ["all"], version = "^2.9.2"}
-fastapi = {extras = ["all"], version = "^0.115.0"}
-redis = "^5.0.8"
+fastapi = {extras = ["all"], version = "^0.115.2"}
+redis = "^5.1.1"
 pytest = {extras = ["all"], version = "^8.1.1"}
-pre-commit = "^3.8.0"
-uvicorn = "^0.30.6"
+pre-commit = "^4.0.1"
+uvicorn = "^0.32.0"
 gunicorn = "^23.0.0"
-ruff = "^0.6.5"
-bandit = "^1.7.9"
-tox = "^4.19.0"
+ruff = "^0.6.9"
+bandit = "^1.7.10"
+tox = "^4.22.0"
 coloredlogs = "^15.0.1"
 wemake-python-styleguide = "^0.19.2"
-black = "^24.8.0"
+black = "^24.10.0"
 flake8 = {extras = ["all"], version = "^7.1.1"}
-mypy = "^1.11.2"
+mypy = "^1.12.0"
 isort = "^5.13.2"
 pendulum = "^3.0.0"
-coverage = {extras = ["all"], version = "^7.6.1"}
+coverage = {extras = ["all"], version = "^7.6.3"}
 pytest-alembic = "~0.11.1"
 pytest-asyncio = "~0.23.8"
 pytest-clarity = "~1.0.1"
