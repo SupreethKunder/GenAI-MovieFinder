@@ -10,31 +10,31 @@ packages = [{include = "src"}]
 [tool.poetry.dependencies]
 python = "^3.12"
 pymongo = {extras = ["srv"], version = "^4.10"}
-pydantic-settings = "^2.6.0"
-pydantic = {extras = ["all"], version = "^2.9.2"}
-fastapi = {extras = ["all"], version = "^0.115.2"}
-redis = "^5.1.1"
+pydantic-settings = "^2.7.1"
+pydantic = {extras = ["all"], version = "^2.10.5"}
+fastapi = {extras = ["all"], version = "^0.115.6"}
+redis = "^5.2.1"
 pytest = {extras = ["all"], version = "^8.1.1"}
 pre-commit = "^4.0.1"
-uvicorn = "^0.32.0"
+uvicorn = "^0.34.0"
 gunicorn = "^23.0.0"
-ruff = "^0.7.0"
-bandit = "^1.7.10"
-tox = "^4.23.0"
+ruff = "^0.9.1"
+bandit = "^1.8.2"
+tox = "^4.23.2"
 coloredlogs = "^15.0.1"
-wemake-python-styleguide = "^0.19.2"
+wemake-python-styleguide = "^1.0.0"
 black = "^24.10.0"
 flake8 = {extras = ["all"], version = "^7.1.1"}
-mypy = "^1.12.1"
+mypy = "^1.14.1"
 isort = "^5.13.2"
 pendulum = "^3.0.0"
-coverage = {extras = ["all"], version = "^7.6.4"}
+coverage = {extras = ["all"], version = "^7.6.10"}
 pytest-alembic = "~0.11.1"
 pytest-asyncio = "~0.23.8"
 pytest-clarity = "~1.0.1"
-pytest-cov = "~5.0.0"
+pytest-cov = "~6.0.0"
 pytest-mock = "~3.14.0"
-pytest-randomly = "~3.15.0"
+pytest-randomly = "~3.16.0"
 pytest-sugar = "~1.0.0"
 
 [tool.poetry.scripts]
